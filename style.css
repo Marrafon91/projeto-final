@@ -16,7 +16,8 @@
 
 html {
     
-    font: 400 62.5% 'Poppins', sans-serif;;
+    font: 400 62.5% 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 p, a {
@@ -69,6 +70,12 @@ nav a {
 .container-dark2 {
     background-color: #003464;
     color: #fafafa;
+}
+
+.container-fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .container {
